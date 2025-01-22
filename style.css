@@ -1,5 +1,181 @@
 /*COLORS:
 Header background - #FFDBAA
-button - #805215
+header-button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #FFDBAA;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100px;
+}
+
+.airline-text {
+    color: #553100;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: xx-large;
+}
+
+.button {
+    display: grid;
+    background-color: #805215;
+    place-items: center;
+    color: #FFFFFF;
+}
+
+.header-button {
+    width: 80px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+}
+
+.small-body-button {
+    width: 160px;
+    height: 40px;
+}
+
+#home {
+    position: absolute;
+    right: 325px;
+    top: 20px;
+}
+
+#flights {
+    position: absolute;
+    right: 225px;
+    top: 20px;
+}
+
+#support {
+    position: absolute;
+    right: 125px;
+    top: 20px;
+}
+
+#login {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+.main-background {
+    background-color: #D4A76A;
+    width: 100vw;
+    height: 100vw;
+}
+
+.small-body-box {
+    background-color: white;
+    width: 225px;
+    height: 150px;
+    top: 130px;
+}
+
+#body-flights {
+    position: absolute;
+    left: 50px;
+}
+
+#body-group-trips {
+    position: absolute;
+    left: 350px;
+}
+
+#body-discount-flights {
+    position: absolute;
+    left: 650px;
+}
+
+.small-body-button {
+    position: relative;
+    width: 200px;
+    left: 12px;
+    top: 10px;
+}
+
+.body-header-text {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: -10px;
+}
+
+.body-p-text {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    align-items: left;
+    position: relative;
+    top: -25px;
+    left: 10px;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+
+.body-large-p-text {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    align-items: left;
+    position: relative;
+    top: px;
+    left: 10px;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+
+.button-text {
+    position: relative;
+    top: -10px;
+    font-family: "Roboto", sans-serif;
+}
+
+#group-rates-button {
+    position: relative;
+    top: -5px;
+}
+
+#discount-flights-button {
+    position: relative;
+    top: -5px;
+}
+
+.large-body-box {
+    position: relative;
+    background-color: white;
+    width: 825px;
+    height: 200px;
+    top: 300px;
+    left: 50px;
+}
+
+#about-us-text {
+    position: relative;
+    top: 15px;
+}
+
+#learn-more-button {
+    position: relative;
+    width: 775px;
+    left: 25px;
+    top: 20px
+}
+
+#learn-more-button-text {
+    position: relative;
+    top: 1px
+}
