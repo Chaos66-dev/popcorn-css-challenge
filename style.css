@@ -30,16 +30,65 @@ body, html {
     grid-column: 1 / 13;
     background-color: #FFDBAA;
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr;
     align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
 
-#title-text {
-    justify-content: flex-start;
+#nav-title-text {
+    grid-column: 1;
+    grid-row: 1;
     /* used for debugging */
     /* background-color: white; */
     padding-left: 1%;
     font-family: "Swiss 721 Bold";
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     color: #553100;
+}
+
+#nav-login{
+    background-color: #805215;
+    grid-column: 6;
+    grid-row: 1;
+    text-align: center;
+    font-size: medium;
+    font-family: "Swiss 721 Bold";
+    color: white;
+    padding: 0.5em;
+}
+
+#nav-support{
+    background-color: #805215;
+    grid-column: 5;
+    grid-row: 1;
+    text-align: center;
+    font-size: medium;
+    font-family: "Swiss 721 Bold";
+    color: white;
+    padding: 0.5em;
+}
+
+#nav-flights {
+    background-color: #805215;
+    grid-column: 4;
+    grid-row: 1;
+    text-align: center;
+    font-size: medium;
+    font-family: "Swiss 721 Bold";
+    color: white;
+    padding: 0.5em;
+}
+
+#nav-home{
+    background-color: #805215;
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    font-size: medium;
+    font-family: "Swiss 721 Bold";
+    color: white;
+    padding: 0.5em;
 }
